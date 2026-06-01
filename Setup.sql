@@ -72,49 +72,49 @@ INSERT INTO components (category, name, price, details) VALUES
 -- ── GPU (15) ─────────────────────────────────────────────────────────────────
 INSERT INTO components (category, name, price, details) VALUES
 ('GPU', 'NVIDIA GeForce GTX 1650 4GB', 12500,
- '{"VRAM":"4GB GDDR6","Core Clock":"1485 MHz","Boost Clock":"1665 MHz","TDP":"75W","Memory Bandwidth":"128 GB/s","Interface":"PCIe 3.0 x16"}'),
+ '{"VRAM":"4GB GDDR6","Core Clock":"1485 MHz","Boost Clock":"1665 MHz","TDP":"75W","Memory Bandwidth":"128 GB/s","Interface":"PCIe 3.0 x16","Card Length":"150mm"}'),
 
 ('GPU', 'AMD Radeon RX 6500 XT 4GB', 13500,
- '{"VRAM":"4GB GDDR6","Core Clock":"2310 MHz","Boost Clock":"2610 MHz","TDP":"107W","Memory Bandwidth":"144 GB/s","Interface":"PCIe 4.0 x4"}'),
+ '{"VRAM":"4GB GDDR6","Core Clock":"2310 MHz","Boost Clock":"2610 MHz","TDP":"107W","Memory Bandwidth":"144 GB/s","Interface":"PCIe 4.0 x4","Card Length":"168mm"}'),
 
 ('GPU', 'NVIDIA GeForce RTX 3050 8GB', 19000,
- '{"VRAM":"8GB GDDR6","Core Clock":"1552 MHz","Boost Clock":"1777 MHz","TDP":"130W","Memory Bandwidth":"224 GB/s","Interface":"PCIe 4.0 x16"}'),
+ '{"VRAM":"8GB GDDR6","Core Clock":"1552 MHz","Boost Clock":"1777 MHz","TDP":"130W","Memory Bandwidth":"224 GB/s","Interface":"PCIe 4.0 x16","Card Length":"242mm"}'),
 
 ('GPU', 'AMD Radeon RX 6600 8GB', 21000,
- '{"VRAM":"8GB GDDR6","Core Clock":"1626 MHz","Boost Clock":"2491 MHz","TDP":"132W","Memory Bandwidth":"224 GB/s","Interface":"PCIe 4.0 x8"}'),
+ '{"VRAM":"8GB GDDR6","Core Clock":"1626 MHz","Boost Clock":"2491 MHz","TDP":"132W","Memory Bandwidth":"224 GB/s","Interface":"PCIe 4.0 x8","Card Length":"238mm"}'),
 
 ('GPU', 'AMD Radeon RX 6650 XT 8GB', 24000,
- '{"VRAM":"8GB GDDR6","Core Clock":"1792 MHz","Boost Clock":"2635 MHz","TDP":"180W","Memory Bandwidth":"280 GB/s","Interface":"PCIe 4.0 x8"}'),
+ '{"VRAM":"8GB GDDR6","Core Clock":"1792 MHz","Boost Clock":"2635 MHz","TDP":"180W","Memory Bandwidth":"280 GB/s","Interface":"PCIe 4.0 x8","Card Length":"267mm"}'),
 
 ('GPU', 'NVIDIA GeForce RTX 3060 12GB', 27000,
- '{"VRAM":"12GB GDDR6","Core Clock":"1320 MHz","Boost Clock":"1777 MHz","TDP":"170W","Memory Bandwidth":"360 GB/s","Interface":"PCIe 4.0 x16"}'),
+ '{"VRAM":"12GB GDDR6","Core Clock":"1320 MHz","Boost Clock":"1777 MHz","TDP":"170W","Memory Bandwidth":"360 GB/s","Interface":"PCIe 4.0 x16","Card Length":"285mm"}'),
 
 ('GPU', 'NVIDIA GeForce RTX 3060 Ti 8GB', 32000,
- '{"VRAM":"8GB GDDR6","Core Clock":"1410 MHz","Boost Clock":"1665 MHz","TDP":"200W","Memory Bandwidth":"448 GB/s","Interface":"PCIe 4.0 x16"}'),
+ '{"VRAM":"8GB GDDR6","Core Clock":"1410 MHz","Boost Clock":"1665 MHz","TDP":"200W","Memory Bandwidth":"448 GB/s","Interface":"PCIe 4.0 x16","Card Length":"240mm"}'),
 
 ('GPU', 'AMD Radeon RX 6700 XT 12GB', 35000,
- '{"VRAM":"12GB GDDR6","Core Clock":"2321 MHz","Boost Clock":"2581 MHz","TDP":"230W","Memory Bandwidth":"384 GB/s","Interface":"PCIe 4.0 x16"}'),
+ '{"VRAM":"12GB GDDR6","Core Clock":"2321 MHz","Boost Clock":"2581 MHz","TDP":"230W","Memory Bandwidth":"384 GB/s","Interface":"PCIe 4.0 x16","Card Length":"267mm"}'),
 
 ('GPU', 'NVIDIA GeForce RTX 3070 8GB', 40000,
- '{"VRAM":"8GB GDDR6","Core Clock":"1500 MHz","Boost Clock":"1725 MHz","TDP":"220W","Memory Bandwidth":"448 GB/s","Interface":"PCIe 4.0 x16"}'),
+ '{"VRAM":"8GB GDDR6","Core Clock":"1500 MHz","Boost Clock":"1725 MHz","TDP":"220W","Memory Bandwidth":"448 GB/s","Interface":"PCIe 4.0 x16","Card Length":"285mm"}'),
 
 ('GPU', 'AMD Radeon RX 6800 XT 16GB', 45000,
- '{"VRAM":"16GB GDDR6","Core Clock":"1825 MHz","Boost Clock":"2250 MHz","TDP":"300W","Memory Bandwidth":"512 GB/s","Interface":"PCIe 4.0 x16"}'),
+ '{"VRAM":"16GB GDDR6","Core Clock":"1825 MHz","Boost Clock":"2250 MB/s","TDP":"300W","Memory Bandwidth":"512 GB/s","Interface":"PCIe 4.0 x16","Card Length":"310mm"}'),
 
 ('GPU', 'AMD Radeon RX 7900 GRE 16GB', 52000,
- '{"VRAM":"16GB GDDR6","Core Clock":"1880 MHz","Boost Clock":"2245 MHz","TDP":"260W","Memory Bandwidth":"576 GB/s","Interface":"PCIe 4.0 x16"}'),
+ '{"VRAM":"16GB GDDR6","Core Clock":"1880 MHz","Boost Clock":"2245 MHz","TDP":"260W","Memory Bandwidth":"576 GB/s","Interface":"PCIe 4.0 x16","Card Length":"336mm"}'),
 
 ('GPU', 'NVIDIA GeForce RTX 3080 10GB', 58000,
- '{"VRAM":"10GB GDDR6X","Core Clock":"1440 MHz","Boost Clock":"1710 MHz","TDP":"320W","Memory Bandwidth":"760 GB/s","Interface":"PCIe 4.0 x16"}'),
+ '{"VRAM":"10GB GDDR6X","Core Clock":"1440 MHz","Boost Clock":"1710 MHz","TDP":"320W","Memory Bandwidth":"760 GB/s","Interface":"PCIe 4.0 x16","Card Length":"320mm"}'),
 
 ('GPU', 'NVIDIA GeForce RTX 4070 12GB', 60000,
- '{"VRAM":"12GB GDDR6X","Core Clock":"1920 MHz","Boost Clock":"2475 MHz","TDP":"200W","Memory Bandwidth":"504 GB/s","Interface":"PCIe 4.0 x16"}'),
+ '{"VRAM":"12GB GDDR6X","Core Clock":"1920 MHz","Boost Clock":"2475 MHz","TDP":"200W","Memory Bandwidth":"504 GB/s","Interface":"PCIe 4.0 x16","Card Length":"285mm"}'),
 
 ('GPU', 'NVIDIA GeForce RTX 4080 16GB', 98000,
- '{"VRAM":"16GB GDDR6X","Core Clock":"2205 MHz","Boost Clock":"2505 MHz","TDP":"320W","Memory Bandwidth":"717 GB/s","Interface":"PCIe 4.0 x16"}'),
+ '{"VRAM":"16GB GDDR6X","Core Clock":"2205 MHz","Boost Clock":"2505 MHz","TDP":"320W","Memory Bandwidth":"717 GB/s","Interface":"PCIe 4.0 x16","Card Length":"336mm"}'),
 
 ('GPU', 'NVIDIA GeForce RTX 4090 24GB', 165000,
- '{"VRAM":"24GB GDDR6X","Core Clock":"2235 MHz","Boost Clock":"2520 MHz","TDP":"450W","Memory Bandwidth":"1008 GB/s","Interface":"PCIe 4.0 x16"}');
+ '{"VRAM":"24GB GDDR6X","Core Clock":"2235 MHz","Boost Clock":"2520 MHz","TDP":"450W","Memory Bandwidth":"1008 GB/s","Interface":"PCIe 4.0 x16","Card Length":"338mm"}');
 
 
 -- ── RAM (15) ─────────────────────────────────────────────────────────────────
@@ -307,3 +307,154 @@ INSERT INTO components (category, name, price, details) VALUES
 
 ('Case', 'Corsair iCUE 7000X RGB', 22000,
  '{"Form Factor":"Full Tower","Motherboard Support":"E-ATX / ATX / mATX / Mini-ITX","Max GPU Length":"450mm","Max CPU Cooler Height":"190mm","Drive Bays":"4x 3.5in + 4x 2.5in","Expansion Slots":"9"}');
+
+
+-- ── Motherboard (15) ─────────────────────────────────────────────────────────
+INSERT INTO components (category, name, price, details) VALUES
+
+-- AM4 (DDR4)
+('Motherboard', 'MSI PRO B450M-A PRO MAX', 6500,
+ '{"Socket":"AM4","Chipset":"B450","Form Factor":"mATX","RAM Type":"DDR4","RAM Slots":"4","Max RAM":"128GB","PCIe x16 Slots":"1","M.2 Slots":"1"}'),
+
+('Motherboard', 'ASRock B450M Steel Legend', 7500,
+ '{"Socket":"AM4","Chipset":"B450","Form Factor":"mATX","RAM Type":"DDR4","RAM Slots":"4","Max RAM":"128GB","PCIe x16 Slots":"2","M.2 Slots":"2"}'),
+
+('Motherboard', 'Gigabyte B550M DS3H', 8000,
+ '{"Socket":"AM4","Chipset":"B550","Form Factor":"mATX","RAM Type":"DDR4","RAM Slots":"4","Max RAM":"128GB","PCIe x16 Slots":"1","M.2 Slots":"2"}'),
+
+('Motherboard', 'MSI MAG B550 TOMAHAWK', 12000,
+ '{"Socket":"AM4","Chipset":"B550","Form Factor":"ATX","RAM Type":"DDR4","RAM Slots":"4","Max RAM":"128GB","PCIe x16 Slots":"2","M.2 Slots":"2"}'),
+
+('Motherboard', 'ASUS ROG Strix B550-F Gaming', 16000,
+ '{"Socket":"AM4","Chipset":"B550","Form Factor":"ATX","RAM Type":"DDR4","RAM Slots":"4","Max RAM":"128GB","PCIe x16 Slots":"2","M.2 Slots":"2"}'),
+
+('Motherboard', 'MSI MPG X570 Gaming Edge', 18000,
+ '{"Socket":"AM4","Chipset":"X570","Form Factor":"ATX","RAM Type":"DDR4","RAM Slots":"4","Max RAM":"128GB","PCIe x16 Slots":"2","M.2 Slots":"2"}'),
+
+-- AM5 (DDR5)
+('Motherboard', 'MSI PRO B650M-A WiFi', 14000,
+ '{"Socket":"AM5","Chipset":"B650","Form Factor":"mATX","RAM Type":"DDR5","RAM Slots":"4","Max RAM":"192GB","PCIe x16 Slots":"1","M.2 Slots":"2"}'),
+
+('Motherboard', 'ASRock B650M Pro RS WiFi', 15500,
+ '{"Socket":"AM5","Chipset":"B650","Form Factor":"mATX","RAM Type":"DDR5","RAM Slots":"4","Max RAM":"192GB","PCIe x16 Slots":"1","M.2 Slots":"3"}'),
+
+('Motherboard', 'Gigabyte B650 AORUS Elite AX', 20000,
+ '{"Socket":"AM5","Chipset":"B650","Form Factor":"ATX","RAM Type":"DDR5","RAM Slots":"4","Max RAM":"192GB","PCIe x16 Slots":"2","M.2 Slots":"3"}'),
+
+('Motherboard', 'MSI MAG B650 TOMAHAWK WiFi', 22000,
+ '{"Socket":"AM5","Chipset":"B650","Form Factor":"ATX","RAM Type":"DDR5","RAM Slots":"4","Max RAM":"192GB","PCIe x16 Slots":"2","M.2 Slots":"3"}'),
+
+('Motherboard', 'ASUS ROG Strix X670E-F Gaming', 35000,
+ '{"Socket":"AM5","Chipset":"X670E","Form Factor":"ATX","RAM Type":"DDR5","RAM Slots":"4","Max RAM":"192GB","PCIe x16 Slots":"3","M.2 Slots":"4"}'),
+
+-- LGA1700 (Intel 12th/13th Gen)
+('Motherboard', 'MSI PRO H610M-G', 8500,
+ '{"Socket":"LGA1700","Chipset":"H610","Form Factor":"mATX","RAM Type":"DDR4","RAM Slots":"2","Max RAM":"64GB","PCIe x16 Slots":"1","M.2 Slots":"1"}'),
+
+('Motherboard', 'Gigabyte B660M DS3H DDR4', 9500,
+ '{"Socket":"LGA1700","Chipset":"B660","Form Factor":"mATX","RAM Type":"DDR4","RAM Slots":"4","Max RAM":"128GB","PCIe x16 Slots":"1","M.2 Slots":"2"}'),
+
+('Motherboard', 'ASUS PRIME Z690-P D4', 16500,
+ '{"Socket":"LGA1700","Chipset":"Z690","Form Factor":"ATX","RAM Type":"DDR4","RAM Slots":"4","Max RAM":"128GB","PCIe x16 Slots":"2","M.2 Slots":"4"}'),
+
+('Motherboard', 'MSI MPG Z790 Carbon WiFi', 38000,
+ '{"Socket":"LGA1700","Chipset":"Z790","Form Factor":"ATX","RAM Type":"DDR5","RAM Slots":"4","Max RAM":"192GB","PCIe x16 Slots":"2","M.2 Slots":"5"}');
+
+
+-- ── Monitor (10) ─────────────────────────────────────────────────────────────
+INSERT INTO components (category, name, price, details) VALUES
+('Monitor', 'AOC 24G2 24" FHD 144Hz IPS', 14000,
+ '{"Size":"24 inch","Resolution":"1920x1080 (FHD)","Panel":"IPS","Refresh Rate":"144Hz","Response Time":"1ms","Brightness":"250 nits","Ports":"HDMI 1.4, DisplayPort 1.2"}'),
+
+('Monitor', 'Samsung Odyssey G4 24" FHD 240Hz', 16000,
+ '{"Size":"24 inch","Resolution":"1920x1080 (FHD)","Panel":"IPS","Refresh Rate":"240Hz","Response Time":"1ms","Brightness":"300 nits","Ports":"HDMI 2.0, DisplayPort 1.2"}'),
+
+('Monitor', 'LG 27GN800-B 27" QHD 144Hz Nano IPS', 18000,
+ '{"Size":"27 inch","Resolution":"2560x1440 (QHD)","Panel":"Nano IPS","Refresh Rate":"144Hz","Response Time":"1ms","Brightness":"350 nits","Ports":"HDMI 1.4, DisplayPort 1.4 x2"}'),
+
+('Monitor', 'Dell S2722DGM 27" QHD 165Hz VA', 20000,
+ '{"Size":"27 inch","Resolution":"2560x1440 (QHD)","Panel":"VA","Refresh Rate":"165Hz","Response Time":"1ms","Brightness":"350 nits","Ports":"HDMI 2.0 x2, DisplayPort 1.4"}'),
+
+('Monitor', 'MSI Optix G274QPX 27" QHD 170Hz', 22000,
+ '{"Size":"27 inch","Resolution":"2560x1440 (QHD)","Panel":"IPS","Refresh Rate":"170Hz","Response Time":"1ms","Brightness":"400 nits","Ports":"HDMI 2.0 x2, DisplayPort 1.4 x2"}'),
+
+('Monitor', 'ASUS TUF VG279QM 27" FHD 280Hz', 24000,
+ '{"Size":"27 inch","Resolution":"1920x1080 (FHD)","Panel":"IPS","Refresh Rate":"280Hz","Response Time":"1ms","Brightness":"400 nits","Ports":"HDMI 2.0, DisplayPort 1.4 x2"}'),
+
+('Monitor', 'LG 27GP850-B 27" QHD 165Hz Nano IPS', 26000,
+ '{"Size":"27 inch","Resolution":"2560x1440 (QHD)","Panel":"Nano IPS","Refresh Rate":"165Hz","Response Time":"1ms","Brightness":"400 nits","Ports":"HDMI 2.0, DisplayPort 1.4 x2"}'),
+
+('Monitor', 'Samsung Odyssey G7 32" QHD 240Hz VA', 32000,
+ '{"Size":"32 inch","Resolution":"2560x1440 (QHD)","Panel":"VA","Refresh Rate":"240Hz","Response Time":"1ms","Brightness":"600 nits","Ports":"HDMI 2.1, DisplayPort 1.4 x2"}'),
+
+('Monitor', 'ASUS ROG Swift PG279QM 27" QHD 240Hz', 45000,
+ '{"Size":"27 inch","Resolution":"2560x1440 (QHD)","Panel":"IPS","Refresh Rate":"240Hz","Response Time":"1ms","Brightness":"400 nits","Ports":"HDMI 2.0, DisplayPort 1.4 x3"}'),
+
+('Monitor', 'LG 27GR95QE-B 27" QHD 240Hz OLED', 70000,
+ '{"Size":"27 inch","Resolution":"2560x1440 (QHD)","Panel":"OLED","Refresh Rate":"240Hz","Response Time":"0.03ms","Brightness":"1000 nits","Ports":"HDMI 2.1 x2, DisplayPort 1.4"}');
+
+
+-- ── Keyboard (10) ─────────────────────────────────────────────────────────────
+INSERT INTO components (category, name, price, details) VALUES
+('Keyboard', 'Zebronics Zeb-K21 USB Keyboard', 600,
+ '{"Type":"Membrane","Layout":"Full Size","Connection":"USB","Backlight":"No","Switch":"N/A"}'),
+
+('Keyboard', 'Ant Esports MK1300 Pro TKL', 2500,
+ '{"Type":"Membrane","Layout":"TKL (87 key)","Connection":"USB","Backlight":"RGB","Switch":"N/A"}'),
+
+('Keyboard', 'Zebronics Zeb-MAX PRO Mechanical', 3000,
+ '{"Type":"Mechanical","Layout":"Full Size","Connection":"USB","Backlight":"LED","Switch":"Blue"}'),
+
+('Keyboard', 'Redragon K552 KUMARA TKL', 4500,
+ '{"Type":"Mechanical","Layout":"TKL (87 key)","Connection":"USB","Backlight":"RGB","Switch":"Blue"}'),
+
+('Keyboard', 'HyperX Alloy Core RGB', 5000,
+ '{"Type":"Membrane","Layout":"Full Size","Connection":"USB","Backlight":"RGB","Switch":"N/A"}'),
+
+('Keyboard', 'Ant Esports MK3400W TKL Wireless', 5500,
+ '{"Type":"Mechanical","Layout":"TKL (87 key)","Connection":"USB / 2.4GHz / Bluetooth","Backlight":"RGB","Switch":"Red"}'),
+
+('Keyboard', 'Redragon K530 Pro 75% Wireless', 7000,
+ '{"Type":"Mechanical","Layout":"75%","Connection":"USB / Bluetooth","Backlight":"RGB","Switch":"Brown"}'),
+
+('Keyboard', 'Keychron K2 V2 75% Wireless', 9000,
+ '{"Type":"Mechanical","Layout":"75%","Connection":"USB-C / Bluetooth","Backlight":"RGB","Switch":"Gateron Red"}'),
+
+('Keyboard', 'Logitech G815 LIGHTSYNC', 14000,
+ '{"Type":"Mechanical","Layout":"Full Size","Connection":"USB","Backlight":"RGB","Switch":"GL Linear"}'),
+
+('Keyboard', 'SteelSeries Apex Pro TKL Wireless', 18000,
+ '{"Type":"Mechanical","Layout":"TKL (87 key)","Connection":"USB / 2.4GHz","Backlight":"RGB","Switch":"OmniPoint Adjustable"}');
+
+
+-- ── Mouse (10) ───────────────────────────────────────────────────────────────
+INSERT INTO components (category, name, price, details) VALUES
+('Mouse', 'Zebronics Zeb-Comfort Wired Mouse', 400,
+ '{"DPI":"1200","Sensor":"Optical","Buttons":"3","Connection":"USB Wired","Weight":"75g","RGB":"No"}'),
+
+('Mouse', 'Ant Esports GM60 RGB Gaming Mouse', 1500,
+ '{"DPI":"3200","Sensor":"Optical","Buttons":"7","Connection":"USB Wired","Weight":"120g","RGB":"Yes"}'),
+
+('Mouse', 'Logitech G102 LIGHTSYNC', 2000,
+ '{"DPI":"200 - 8000","Sensor":"Optical","Buttons":"6","Connection":"USB Wired","Weight":"85g","RGB":"Yes"}'),
+
+('Mouse', 'Redragon M711 COBRA Gaming Mouse', 2500,
+ '{"DPI":"500 - 10000","Sensor":"Optical","Buttons":"7","Connection":"USB Wired","Weight":"130g","RGB":"Yes"}'),
+
+('Mouse', 'Razer DeathAdder Essential', 3000,
+ '{"DPI":"200 - 6400","Sensor":"5G Optical","Buttons":"5","Connection":"USB Wired","Weight":"96g","RGB":"Yes"}'),
+
+('Mouse', 'HyperX Pulsefire Haste Wired', 5000,
+ '{"DPI":"100 - 16000","Sensor":"Optical","Buttons":"6","Connection":"USB Wired","Weight":"59g","RGB":"Yes"}'),
+
+('Mouse', 'SteelSeries Aerox 3 Wireless', 7000,
+ '{"DPI":"100 - 18000","Sensor":"TrueMove Air","Buttons":"6","Connection":"USB / 2.4GHz / Bluetooth","Weight":"68g","RGB":"Yes"}'),
+
+('Mouse', 'Logitech G502 X Plus Wireless', 7500,
+ '{"DPI":"100 - 25600","Sensor":"HERO 25K","Buttons":"13","Connection":"Wireless 2.4GHz","Weight":"106g","RGB":"Yes"}'),
+
+('Mouse', 'Logitech G Pro X Superlight 2', 12000,
+ '{"DPI":"100 - 32000","Sensor":"HERO 2","Buttons":"5","Connection":"Wireless 2.4GHz","Weight":"60g","RGB":"No"}'),
+
+('Mouse', 'Razer Viper V2 Pro', 16000,
+ '{"DPI":"100 - 30000","Sensor":"Focus Pro 30K","Buttons":"5","Connection":"Wireless 2.4GHz","Weight":"58g","RGB":"No"}');
