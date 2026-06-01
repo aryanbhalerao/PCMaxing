@@ -10,5 +10,6 @@ PCMaxing a web app to help you design your own custom computer. Select component
 
 Screenshots:
 ![alt text](demo.png)
-[alt text](demo_dark.png)
-Checkout sampleInvoicePrint for an example of invoice printer functionality.
+![alt text](demo_dark.png)
+
+Invoice Printer Demo: [Sample Invoice](sampleInvoidPrint.pdf)
