@@ -292,7 +292,7 @@ body {
 
 /* Compatibility Box */
 .compat-box {
-  margin-top: 0.75rem;
+  margin-bottom: 1rem;
   padding: 0.9rem 1rem;
   border-radius: 12px;
   border: 1.5px solid;

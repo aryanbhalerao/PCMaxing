@@ -286,6 +286,9 @@ export default function App() {
             </div>
           ))}
 
+        </div>
+
+        <aside className="invoice-section">
           {hasSelectedParts && (
             <div className={`compat-box${compatIssues.length === 0 ? ' compat-ok' : ' compat-error'}`}>
               <div className="compat-header">
@@ -305,9 +308,7 @@ export default function App() {
               )}
             </div>
           )}
-        </div>
 
-        <aside className="invoice-section">
           <div className="invoice-header">
             <h2>Your Build</h2>
             <span className="part-count">{Object.keys(selectedParts).length} Parts</span>
