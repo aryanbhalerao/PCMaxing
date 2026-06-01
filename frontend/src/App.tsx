@@ -1,14 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import './App.css';
-import { supabase } from './lib/supabase';
-
-interface PCComponent {
-  id: number;
-  category: string;
-  name: string;
-  price: number;
-  details?: Record<string, string | number>;
-}
+import { api, type PCComponent } from './lib/api';
 
 interface SearchableDropdownProps {
   category: string;
@@ -167,20 +159,13 @@ export default function App() {
   }, [isDarkMode]);
 
   useEffect(() => {
-    supabase
-      .from('components')
-      .select('*')
-      .order('category')
-      .order('price')
-      .then(({ data, error }) => {
-        if (error) {
-          console.error('Failed to fetch components:', error);
-          setFetchError('Failed to load components. Please refresh the page.');
-        } else {
-          setComponents((data ?? []) as PCComponent[]);
-        }
-        setLoading(false);
-      });
+    api.getComponents()
+      .then((data) => setComponents(data))
+      .catch((err) => {
+        console.error('Failed to fetch components:', err);
+        setFetchError('Failed to load components. Please refresh the page.');
+      })
+      .finally(() => setLoading(false));
   }, []);
 
   const sortedCategories = useMemo(() => {
